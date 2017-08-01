@@ -65,16 +65,48 @@
 		2BF021871F3063FA0084C34E /* LunchTime */ = {
 			isa = PBXGroup;
 			children = (
-				2BF021881F3063FA0084C34E /* AppDelegate.swift */,
+				2BF021A51F307EF20084C34E /* Common */,
+				2BF021A31F307ED90084C34E /* Models */,
+				2BF021A21F307ED20084C34E /* View */,
+				2BF021A41F307EE50084C34E /* Controllers */,
+			);
+			path = LunchTime;
+			sourceTree = "<group>";
+		};
+		2BF021A21F307ED20084C34E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BF0218C1F3063FA0084C34E /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2BF021A31F307ED90084C34E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BF021A01F3079810084C34E /* Venue.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2BF021A41F307EE50084C34E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				2BF0218A1F3063FA0084C34E /* ViewController.swift */,
 				2BF0219C1F3065440084C34E /* RestaurantListTableViewController.swift */,
-				2BF021A01F3079810084C34E /* Venue.swift */,
-				2BF0218C1F3063FA0084C34E /* Main.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2BF021A51F307EF20084C34E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2BF021881F3063FA0084C34E /* AppDelegate.swift */,
 				2BF0218F1F3063FA0084C34E /* Assets.xcassets */,
 				2BF021911F3063FA0084C34E /* LaunchScreen.storyboard */,
 				2BF021941F3063FA0084C34E /* Info.plist */,
 			);
-			path = LunchTime;
+			name = Common;
 			sourceTree = "<group>";
 		};
 		ECA94F26D04FFFBB207127DF /* Pods */ = {

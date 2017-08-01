@@ -19,17 +19,15 @@ class RestaurantListTableViewController: UITableViewController {
     @IBOutlet var restaurantTableView: UITableView!
     
     var itemNames = [""]
-    
-    //client_id=CLIENT_ID&client_secret=CLIENT_SECRET&v=YYYYMMDD
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Restaurants"
         loadData()
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     
     func loadData() {
