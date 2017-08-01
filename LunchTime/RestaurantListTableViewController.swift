@@ -105,7 +105,7 @@ class RestaurantListTableViewController: UITableViewController {
     
     func parseVenues() {
         let realm = try! Realm()
-        let venues = realm.objects(Venue)
+        let venues = realm.objects(Venue.self)
         
         for venue in venues
         {

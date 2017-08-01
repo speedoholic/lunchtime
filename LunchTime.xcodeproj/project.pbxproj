@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2BF021891F3063FA0084C34E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF021881F3063FA0084C34E /* AppDelegate.swift */; };
-		2BF0218B1F3063FA0084C34E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0218A1F3063FA0084C34E /* ViewController.swift */; };
 		2BF0218E1F3063FA0084C34E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0218C1F3063FA0084C34E /* Main.storyboard */; };
 		2BF021901F3063FA0084C34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0218F1F3063FA0084C34E /* Assets.xcassets */; };
 		2BF021931F3063FA0084C34E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF021911F3063FA0084C34E /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		21D924E0A29B4B945EBA26BB /* Pods-LunchTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunchTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunchTime/Pods-LunchTime.debug.xcconfig"; sourceTree = "<group>"; };
 		2BF021851F3063FA0084C34E /* LunchTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF021881F3063FA0084C34E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BF0218A1F3063FA0084C34E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BF0218D1F3063FA0084C34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BF0218F1F3063FA0084C34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BF021921F3063FA0084C34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 		2BF021A41F307EE50084C34E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2BF0218A1F3063FA0084C34E /* ViewController.swift */,
 				2BF0219C1F3065440084C34E /* RestaurantListTableViewController.swift */,
 			);
 			name = Controllers;
@@ -250,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF0218B1F3063FA0084C34E /* ViewController.swift in Sources */,
 				2BF021A11F3079810084C34E /* Venue.swift in Sources */,
 				2BF0219D1F3065440084C34E /* RestaurantListTableViewController.swift in Sources */,
 				2BF021891F3063FA0084C34E /* AppDelegate.swift in Sources */,
