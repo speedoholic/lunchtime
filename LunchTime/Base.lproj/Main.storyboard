@@ -41,6 +41,78 @@
             </objects>
             <point key="canvasLocation" x="1757.5999999999999" y="122.78860569715144"/>
         </scene>
+        <!--ReviewRestaurantViewController-->
+        <scene sceneID="Dyf-oD-cPv">
+            <objects>
+                <viewController storyboardIdentifier="ReviewRestaurantViewController" title="ReviewRestaurantViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7WL-Ma-79d" customClass="ReviewRestaurantViewController" customModule="LunchTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m5i-BT-no3"/>
+                        <viewControllerLayoutGuide type="bottom" id="PW2-d9-Nwu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fBS-Fq-wV7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vqt-kO-Pw8">
+                                <rect key="frame" x="12" y="32" width="351" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="nnq-N5-xkP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XM1-xU-Md2">
+                                <rect key="frame" x="12" y="100" width="351" height="150"/>
+                                <color key="backgroundColor" red="0.855341521990996" green="0.91342646132489025" blue="0.91799664497375488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="vn1-Ea-vFV"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="go"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJR-u1-mUV">
+                                <rect key="frame" x="87" y="305" width="200" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="WMo-oL-8eB"/>
+                                    <constraint firstAttribute="width" constant="200" id="zSk-bO-NrA"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Submit"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="submitButtonTapped:" destination="7WL-Ma-79d" eventType="touchUpInside" id="PSd-nH-bHv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BJR-u1-mUV" firstAttribute="centerX" secondItem="fBS-Fq-wV7" secondAttribute="centerX" id="8eE-kh-ejN"/>
+                            <constraint firstItem="XM1-xU-Md2" firstAttribute="top" secondItem="Vqt-kO-Pw8" secondAttribute="bottom" constant="8" id="FVj-uE-I5Y"/>
+                            <constraint firstItem="Vqt-kO-Pw8" firstAttribute="top" secondItem="m5i-BT-no3" secondAttribute="bottom" constant="12" id="iRs-y3-aNY"/>
+                            <constraint firstAttribute="trailing" secondItem="Vqt-kO-Pw8" secondAttribute="trailing" constant="12" id="sXK-Dp-aVL"/>
+                            <constraint firstItem="BJR-u1-mUV" firstAttribute="top" secondItem="XM1-xU-Md2" secondAttribute="bottom" constant="55" id="sjq-31-cAu"/>
+                            <constraint firstAttribute="trailing" secondItem="XM1-xU-Md2" secondAttribute="trailing" constant="12" id="vCD-2I-GYQ"/>
+                            <constraint firstItem="XM1-xU-Md2" firstAttribute="leading" secondItem="fBS-Fq-wV7" secondAttribute="leading" constant="12" id="x4o-mJ-QaC"/>
+                            <constraint firstItem="Vqt-kO-Pw8" firstAttribute="leading" secondItem="fBS-Fq-wV7" secondAttribute="leading" constant="12" id="xwH-ZY-sbn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="restaurantName" destination="Vqt-kO-Pw8" id="OFf-Rf-aat"/>
+                        <outlet property="reviewTextView" destination="XM1-xU-Md2" id="XEW-cd-oUC"/>
+                        <outlet property="submitButton" destination="BJR-u1-mUV" id="cSp-Fj-Bjc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TF0-ts-5ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2529" y="123"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="stf-k2-gi1">
             <objects>

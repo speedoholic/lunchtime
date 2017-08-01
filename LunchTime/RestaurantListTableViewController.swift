@@ -18,7 +18,9 @@ class RestaurantListTableViewController: UITableViewController {
 
     @IBOutlet var restaurantTableView: UITableView!
     
-    var itemNames = [""]
+    var itemNames:[String] = ["Loading Data..."]
+    var venues:[Venue] = []
+    var isResponseReceived = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,65 +52,54 @@ class RestaurantListTableViewController: UITableViewController {
                         // access nested dictionary values by key
                         if let groups = nestedDictionary["groups"] as? [[String:Any]] {
                             let groupObject = groups[0]
-                                if let itemsArray = groupObject["items"] as? [[String: Any]] {
+                            if let itemsArray = groupObject["items"] as? [[String: Any]] {
+                                
+                                let realm = try! Realm()
+                                realm.beginWrite()
+                                
+                                for item:[String: Any] in itemsArray
+                                {
+                                    let venue = item["venue"] as? [String:Any]
                                     
-                                    let realm = try! Realm()
-                                    realm.beginWrite()
-                                    
-                                    for item:[String: Any] in itemsArray
+                                    let venueObject:Venue = Venue()
+                                    if let id = venue?["id"] as? String
                                     {
-                                        let venue = item["venue"] as? [String:Any]
-                                        
-                                        let venueObject:Venue = Venue()
-                                        if let id = venue?["id"] as? String
-                                        {
-                                            venueObject.id = id
-                                        }
-                                        
-                                        if let name = venue?["name"] as? String
-                                        {
-                                            venueObject.name = name
-                                        }
-                                        
-//                                        if  let location = venue["location"] as? [String: AnyObject]
-//                                        {
-//                                            if let longitude = location["lng"] as? Float
-//                                            {
-//                                                venueObject.longitude = longitude
-//                                            }
-//                                            
-//                                            if let latitude = location["lat"] as? Float
-//                                            {
-//                                                venueObject.latitude = latitude
-//                                            }
-//                                            
-//                                            if let formattedAddress = location["formattedAddress"] as? [String]
-//                                            {
-//                                                venueObject.address = formattedAddress.joinWithSeparator(" ")
-//                                            }
-//                                        }
-                                        
-                                        realm.add(venueObject, update: true)
+                                        venueObject.id = id
                                     }
-                                    print(itemsArray[0])
+                                    
+                                    if let name = venue?["name"] as? String
+                                    {
+                                        venueObject.name = name
+                                    }
+                                    realm.add(venueObject, update: true)
                                 }
+                                do {
+                                    try realm.commitWrite()
+                                    print("Committing write...")
+                                }
+                                catch (let e)
+                                {
+                                    print("Y U NO REALM ? \(e)")
+                                }
+                            }
                         }
                     }
-                    
+                    self.isResponseReceived = true
                     self.parseVenues()
                 }
             }
         }
-        
-        
     }
     
     func parseVenues() {
+        self.itemNames.removeAll()
+        
         let realm = try! Realm()
         let venues = realm.objects(Venue.self)
         
         for venue in venues
         {
+            self.venues.append(venue)
             self.itemNames.append(venue.name)
         }
         self.tableView.reloadData()
@@ -122,24 +113,26 @@ class RestaurantListTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return itemNames.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier", for: indexPath)
-        if cell == nil
-        {
-            cell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "cellIdentifier")
-        }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier", for: indexPath)
         cell.textLabel?.text = itemNames[indexPath.row]
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let vc = ReviewRestaurantViewController()
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ReviewRestaurantViewController") as! ReviewRestaurantViewController
+        vc.restaurantNameText = itemNames[indexPath.row]
+        vc.venue = venues[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
     }
  
 

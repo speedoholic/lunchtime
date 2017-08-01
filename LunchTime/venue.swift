@@ -13,6 +13,7 @@ class Venue: Object
 {
     dynamic var id:String = ""
     dynamic var name:String = ""
+    dynamic var review:String = ""
     
     override static func primaryKey() -> String?
     {
