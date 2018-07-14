@@ -1,0 +1,109 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/Pods_LunchTime.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-LunchTime-umbrella.h",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/Pods/Target Support Files/Pods-LunchTime/Pods-LunchTime-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_LunchTime-Swift.h",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/Pods_LunchTime.framework/Headers/Pods_LunchTime-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/Pods_LunchTime.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-LunchTime.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Realm-Swift.h",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RealmSwift-Swift.h",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RealmSwift-umbrella.h",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

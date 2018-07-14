@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/Realm/RLMSchema.mm \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Target\ Support\ Files/Realm/Realm-prefix.pch \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSchema_Private.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSchema.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMAccessor.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObject_Private.hpp \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObject_Private.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObjectBase_Dynamic.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObject.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObjectBase.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMThreadSafeReference.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMRealm_Private.hpp \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMRealm_Private.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMRealm.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMConstants.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMClassInfo.hpp \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMUtil.hpp \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMOptionalBase.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObjectSchema_Private.hpp \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObjectSchema_Private.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObjectSchema.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/object_schema.hpp \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMProperty_Private.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMProperty.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSwiftSupport.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/object_store.hpp \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/property.hpp \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/util/compiler.hpp \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/schema.hpp

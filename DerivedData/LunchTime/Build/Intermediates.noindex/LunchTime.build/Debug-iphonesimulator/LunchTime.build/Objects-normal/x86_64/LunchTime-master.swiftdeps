@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "851fed25e81ede241a08a26b19c0dc0a"
+build_time: [1531535064, 388048000]
+inputs:
+  "/Users/kushalashok/Documents/References/github/lunchtime/LunchTime/Venue.swift": [1531533557, 0]
+  "/Users/kushalashok/Documents/References/github/lunchtime/LunchTime/ReviewRestaurantViewController.swift": [1531533557, 0]
+  "/Users/kushalashok/Documents/References/github/lunchtime/LunchTime/RestaurantListTableViewController.swift": [1531533557, 0]
+  "/Users/kushalashok/Documents/References/github/lunchtime/LunchTime/AppDelegate.swift": [1531533557, 0]

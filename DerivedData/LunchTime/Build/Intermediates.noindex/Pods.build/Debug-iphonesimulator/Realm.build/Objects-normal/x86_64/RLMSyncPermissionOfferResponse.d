@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/Realm/RLMSyncPermissionOfferResponse.m \
+  /Users/kushalashok/Documents/References/github/lunchtime/DerivedData/LunchTime/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Target\ Support\ Files/Realm/Realm-prefix.pch \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncPermissionOfferResponse_Private.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncPermissionOfferResponse.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/Realm.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMArray.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMCollection.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMThreadSafeReference.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMMigration.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObject.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObjectBase.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMObjectSchema.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMPlatform.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMProperty.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMConstants.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMRealm.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMRealmConfiguration.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMRealmConfiguration+Sync.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncUtil.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMResults.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSchema.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncConfiguration.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncCredentials.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncManager.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncPermission.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncPermissionChange.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncPermissionOffer.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncPermissionResults.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncUser.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncPermissionValue.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncSession.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/NSError+RLMSync.h \
+  /Users/kushalashok/Documents/References/github/lunchtime/Pods/Realm/include/RLMSyncUtil_Private.h
